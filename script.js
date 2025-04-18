@@ -10,7 +10,7 @@ function calculateAge(){
     let m1 = birthDate.getMonth() + 1;
     let y1 = birthDate.getFullYear();
 
-    let today = new Date()
+    let today = new Date();
 
     let d2 = today.getDate();
     let m2 = today.getMonth() + 1;
