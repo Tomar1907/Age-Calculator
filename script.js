@@ -1,5 +1,5 @@
-let userInput = document.getElementById("date")
-let result = document.getElementById("result")
+let userInput = document.getElementById("date");
+let result = document.getElementById("result");
 
 userInput.max = new Date().toISOString().split("T")[0]
 
