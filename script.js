@@ -4,7 +4,7 @@ let result = document.getElementById("result");
 userInput.max = new Date().toISOString().split("T")[0]
 
 function calculateAge(){
-    let birthDate = new Date(userInput.value)
+    let birthDate = new Date(userInput.value);
 
     let d1 = birthDate.getDate();
     let m1 = birthDate.getMonth() + 1;
